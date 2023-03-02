@@ -12,7 +12,7 @@ npm install jest --save-dev
 
 # Using Babel
 
-npm install @babel/core @babel/preset-env --save-dev
+npm install @babel/core @babel/preset-env --save-dev  
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 
 .babelrc  
