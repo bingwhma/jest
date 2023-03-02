@@ -10,7 +10,7 @@ npm install jest --save-dev
       "collectCoverage": true  
     },  
 
-# ES support for jtest
+# ESM support for jtest
 ## babel
 npm install @babel/core @babel/preset-env --save-dev
 
