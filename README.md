@@ -10,9 +10,10 @@ npm install jest --save-dev
       "collectCoverage": true  
     },  
 
-# ESM support for jtest
-## babel
+# Using Babel
+
 npm install @babel/core @babel/preset-env --save-dev
+npm install --save-dev babel-jest @babel/core @babel/preset-env
 
 .babelrc  
   {  
@@ -20,4 +21,10 @@ npm install @babel/core @babel/preset-env --save-dev
       "targets": {  
         "node": "current"  
       }  
-  }  
+  } 
+  
+or
+babel.config.js  
+module.exports = {  
+  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],  
+};  
